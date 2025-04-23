@@ -8,4 +8,5 @@ export default function OnePieceMember({ emoji, role, desc, name }) {
             </div>
         </div>
     );
+
 }

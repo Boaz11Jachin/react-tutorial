@@ -28,6 +28,7 @@ function Exercise() {
   let years = Array.from({ length: 75 }, function (_, idx) {
     return 1950 + idx;
   });
+
   years.map(function (elm) {
     return <option key={elm}>{elm}</option>;
   });

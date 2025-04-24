@@ -34,7 +34,7 @@ function Receiver() {
   return (
     <div className="receiver-container">
       {address.map((elm, idx) => {
-        return <ReceiverItem target={elm} />;
+        return <ReceiverItem />;
       })}
       <input className="receiver-input" onKeyDown={keyDownHandle} />
     </div>

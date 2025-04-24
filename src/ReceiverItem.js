@@ -1,6 +1,4 @@
-import Receiver from "./Receiver";
-
-function ReceiverItem({ elm, idx, clickHandle }) {
+function ReceiverItem() {
   return (
     <div className="receiver-item" key={idx}>
       <span>{elm}</span>
